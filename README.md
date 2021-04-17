@@ -1,2 +1,2 @@
 # PSAlgorithmCplusplus
-Problem Solving and Algorithm problem solve using c++
+Problem Solving and Algorithm problem solve using swift and C++
