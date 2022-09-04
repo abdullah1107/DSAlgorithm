@@ -11,7 +11,12 @@ int main() {
     insertInBST(root, 40);
     insertInBST(root, 60);
     insertInBST(root, 80);
-    searchInBST(root, 60);
+    //searchInBST(root, 60);
+    BSTree *temp = findMinimum(root);
+    cout<<"MinValue:"<<temp->value<<endl;
+
+    BSTree *tempMax = findMaximum(root);
+    cout<<"MaxValue:"<<tempMax->value<<endl;
 
 
     return 0;
