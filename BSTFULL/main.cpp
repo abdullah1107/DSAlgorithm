@@ -1,5 +1,6 @@
+// Created by Muhammad Mamun on 4/9/22.
 #include "BSTree.h"
-
+// 50, 30,70,20,40,60,80
 
 int main() {
     BSTree *root = nullptr;
@@ -10,6 +11,7 @@ int main() {
     insertInBST(root, 40);
     insertInBST(root, 60);
     insertInBST(root, 80);
+    searchInBST(root, 60);
 
 
     return 0;

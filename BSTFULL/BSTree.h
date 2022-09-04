@@ -14,4 +14,5 @@ struct BSTree{
 };
 
 BSTree *insertInBST(BSTree *currentNode, int insertValue);
+BSTree *searchInBST(BSTree *currentNode, int searchValue);
 #endif //BSTFULL_BSTREE_H

@@ -58,6 +58,12 @@ build CMakeFiles/BSTFULL.dir/InsertBST.cpp.o: CXX_COMPILER__BSTFULL_Debug /Users
   OBJECT_DIR = CMakeFiles/BSTFULL.dir
   OBJECT_FILE_DIR = CMakeFiles/BSTFULL.dir
 
+build CMakeFiles/BSTFULL.dir/SearchValueInBST.cpp.o: CXX_COMPILER__BSTFULL_Debug /Users/muhammadmamun/Desktop/DSAlgorithm/BSTFULL/SearchValueInBST.cpp || cmake_object_order_depends_target_BSTFULL
+  DEP_FILE = CMakeFiles/BSTFULL.dir/SearchValueInBST.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/BSTFULL.dir
+  OBJECT_FILE_DIR = CMakeFiles/BSTFULL.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target BSTFULL
@@ -66,7 +72,7 @@ build CMakeFiles/BSTFULL.dir/InsertBST.cpp.o: CXX_COMPILER__BSTFULL_Debug /Users
 #############################################
 # Link the executable BSTFULL
 
-build BSTFULL: CXX_EXECUTABLE_LINKER__BSTFULL_Debug CMakeFiles/BSTFULL.dir/main.cpp.o CMakeFiles/BSTFULL.dir/InsertBST.cpp.o
+build BSTFULL: CXX_EXECUTABLE_LINKER__BSTFULL_Debug CMakeFiles/BSTFULL.dir/main.cpp.o CMakeFiles/BSTFULL.dir/InsertBST.cpp.o CMakeFiles/BSTFULL.dir/SearchValueInBST.cpp.o
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/BSTFULL.dir
   POST_BUILD = :
