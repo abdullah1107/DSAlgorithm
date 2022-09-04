@@ -1,2 +1,2 @@
-# PSAlgorithmCplusplus
-Problem Solving and Algorithm problem solve using swift and C++
+# DSAlgorithm
+Code of DataStructure and Algorithm using C/C++
