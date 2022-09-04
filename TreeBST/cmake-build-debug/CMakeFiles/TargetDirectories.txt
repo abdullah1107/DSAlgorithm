@@ -1,0 +1,3 @@
+/Users/muhammadmamun/Desktop/TreeBST/cmake-build-debug/CMakeFiles/QueueArray.dir
+/Users/muhammadmamun/Desktop/TreeBST/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/muhammadmamun/Desktop/TreeBST/cmake-build-debug/CMakeFiles/rebuild_cache.dir
