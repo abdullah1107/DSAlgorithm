@@ -17,4 +17,5 @@ BSTree *insertInBST(BSTree *currentNode, int insertValue);
 BSTree *searchInBST(BSTree *currentNode, int searchValue);
 BSTree *findMinimum(BSTree *root);
 BSTree *findMaximum(BSTree *root);
+void configureTree(BSTree *root);
 #endif //BSTFULL_BSTREE_H
