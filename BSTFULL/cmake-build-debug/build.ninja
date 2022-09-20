@@ -76,6 +76,18 @@ build CMakeFiles/BSTFULL.dir/HeightAndDepthOfTree.cpp.o: CXX_COMPILER__BSTFULL_D
   OBJECT_DIR = CMakeFiles/BSTFULL.dir
   OBJECT_FILE_DIR = CMakeFiles/BSTFULL.dir
 
+build CMakeFiles/BSTFULL.dir/DeleteNode.cpp.o: CXX_COMPILER__BSTFULL_Debug /Users/muhammadmamun/Desktop/DSAlgorithm/BSTFULL/DeleteNode.cpp || cmake_object_order_depends_target_BSTFULL
+  DEP_FILE = CMakeFiles/BSTFULL.dir/DeleteNode.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/BSTFULL.dir
+  OBJECT_FILE_DIR = CMakeFiles/BSTFULL.dir
+
+build CMakeFiles/BSTFULL.dir/LabelTraversal.cpp.o: CXX_COMPILER__BSTFULL_Debug /Users/muhammadmamun/Desktop/DSAlgorithm/BSTFULL/LabelTraversal.cpp || cmake_object_order_depends_target_BSTFULL
+  DEP_FILE = CMakeFiles/BSTFULL.dir/LabelTraversal.cpp.o.d
+  FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++2b
+  OBJECT_DIR = CMakeFiles/BSTFULL.dir
+  OBJECT_FILE_DIR = CMakeFiles/BSTFULL.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target BSTFULL
@@ -84,7 +96,7 @@ build CMakeFiles/BSTFULL.dir/HeightAndDepthOfTree.cpp.o: CXX_COMPILER__BSTFULL_D
 #############################################
 # Link the executable BSTFULL
 
-build BSTFULL: CXX_EXECUTABLE_LINKER__BSTFULL_Debug CMakeFiles/BSTFULL.dir/main.cpp.o CMakeFiles/BSTFULL.dir/InsertBST.cpp.o CMakeFiles/BSTFULL.dir/SearchValueInBST.cpp.o CMakeFiles/BSTFULL.dir/MaxAndMin.cpp.o CMakeFiles/BSTFULL.dir/HeightAndDepthOfTree.cpp.o
+build BSTFULL: CXX_EXECUTABLE_LINKER__BSTFULL_Debug CMakeFiles/BSTFULL.dir/main.cpp.o CMakeFiles/BSTFULL.dir/InsertBST.cpp.o CMakeFiles/BSTFULL.dir/SearchValueInBST.cpp.o CMakeFiles/BSTFULL.dir/MaxAndMin.cpp.o CMakeFiles/BSTFULL.dir/HeightAndDepthOfTree.cpp.o CMakeFiles/BSTFULL.dir/DeleteNode.cpp.o CMakeFiles/BSTFULL.dir/LabelTraversal.cpp.o
   FLAGS = -g -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/BSTFULL.dir
   POST_BUILD = :

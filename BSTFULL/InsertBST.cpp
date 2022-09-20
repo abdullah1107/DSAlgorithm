@@ -12,18 +12,16 @@ BSTree *createNewNode(int insertValue){
 
 
 BSTree *insertInBST(BSTree *currentNode, int insertValue){
-
-
     if(currentNode == nullptr) {
         currentNode = createNewNode(insertValue);
         //cout<<"Begin with ->"<<currentNode->value<<endl;
     }
     else if(currentNode->value > insertValue){
             currentNode->left = insertInBST(currentNode->left, insertValue);
-        }
-        else if(currentNode->value < insertValue){
+    }
+    else if(currentNode->value < insertValue){
             currentNode->right = insertInBST(currentNode->right, insertValue);
-        }
+    }
     //cout<<"End with ->"<<currentNode->value<<endl;
     return currentNode;
 }

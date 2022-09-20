@@ -13,7 +13,12 @@ void preOrderTravers(BSTree *currentNode){
 }
 
 int findingHeightOFTree(BSTree *node){
-    
+    if (node == nullptr) return -1;
+    int leftHeight = findingHeightOFTree(node->left) + 1;
+    //cout<<"leftHeight"<<node->value<<" :"<<leftHeight<<endl;
+    int rightHeight = findingHeightOFTree(node->right) + 1;
+    //cout<<"rightHeight"<<node->value<<" :"<<rightHeight<<endl;
+    return max(leftHeight, rightHeight);
 }
 
 void configureTree(BSTree *root){
@@ -21,11 +26,12 @@ void configureTree(BSTree *root){
     insertInBST(root, 30);
     insertInBST(root, 70);
     insertInBST(root, 20);
-    insertInBST(root, 35);
     insertInBST(root, 40);
+    insertInBST(root, 35);
     insertInBST(root, 45);
     insertInBST(root, 60);
     insertInBST(root, 90);
     preOrderTravers(root);
+    cout<<"\n"<<findingHeightOFTree(root);
 
 }
