@@ -1,0 +1,5 @@
+# ninja log v5
+0	1021	1664634734484430612	CMakeFiles/NearestDistanceFromOneBFS.dir/main.cpp.o	e36b485e51db4c20
+1023	1151	1664634734618901974	NearestDistanceFromOneBFS	12dc8ac390d56724
+2	1052	1664634818207318981	CMakeFiles/NearestDistanceFromOneBFS.dir/main.cpp.o	e36b485e51db4c20
+1052	1148	1664634818308904141	NearestDistanceFromOneBFS	12dc8ac390d56724
